@@ -20,7 +20,7 @@ Diffusion bridge models establish probabilistic paths between arbitrary paired d
 
 ## Stochastic Trajectories
 
-<img src="./assets/sde" width="100%">
+<img src="./assets/sde.png" width="100%">
 
 ## Visualization
 
