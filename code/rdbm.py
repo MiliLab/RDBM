@@ -128,7 +128,7 @@ class RDBM(nn.Module):
         self.num_timesteps = timesteps
         self.sampling_timesteps = sampling_timesteps
 
-        lamb = 10/255
+        lamb = 1e-4
         theta_start = 0.0001
         theta_end = 0.02
         thetas = betas_for_alpha_bar(timesteps)
